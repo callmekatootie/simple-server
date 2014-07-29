@@ -22,8 +22,8 @@ You can find a list of supported flags by executing the command as:
 
 The allowed flags are:
 
--p    Specify a port for listening to connections
--a    Spoecify an address to bind the server to
+-p    Specify a port for listening to connections  
+-a    Specify an address to bind the server to
 
 Example:  
 
