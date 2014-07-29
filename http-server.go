@@ -34,8 +34,7 @@ func main() {
     err := http.ListenAndServe(address, nil)
 
     if err != nil {
-        fmt.Println()
-        fmt.Println("ERROR")
+        fmt.Println("\nERROR")
         fmt.Println(err);
     }
 }
