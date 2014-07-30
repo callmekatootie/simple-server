@@ -29,8 +29,8 @@ You can find a list of supported flags / options by executing the command as:
 
 The allowed flags / options are:
 
--p    Specify a port for listening to connections (default is 8080)
--a    Specify an address to bind the server to (default is 127.0.0.1)
+-p    Specify a port for listening to connections (default is 8080)  
+-a    Specify an address to bind the server to (default is 127.0.0.1)  
 
 Example:  
 
