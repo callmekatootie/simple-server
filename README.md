@@ -19,23 +19,21 @@ Usage
 If you have set up your `$GOPATH` correctly and you have included `$GOPATH/bin` directory in your command's PATH
 variable, you should be able to use this as:  
 
-    $ simple-server
+    $ simple-server [path] [options]
 
-You can find a list of supported flags by executing the command as:  
+[path] defaults to the current working directory (./)
+
+You can find a list of supported flags / options by executing the command as:  
 
     $ simple-server -h
 
-The allowed flags are:
+The allowed flags / options are:
 
--p    Specify a port for listening to connections  
--a    Specify an address to bind the server to
+-p    Specify a port for listening to connections (default is 8080)
+-a    Specify an address to bind the server to (default is 127.0.0.1)
 
 Example:  
 
     $ simple-server -a 127.0.0.1 -p 8082
 
 will set up a server that can be accessed at [http://localhost:8082](http://localhost:8082)
-
-By default, the address is 127.0.0.1 and the port is 8080
-
-The server will host files in the present working directory
