@@ -16,6 +16,11 @@ it directly in any directory as a command
 
 Usage
 -----
+If you have set up your `$GOPATH` correctly and you have included `$GOPATH/bin` directory in your command's PATH
+variable, you should be able to use this as:  
+
+    $ simple-server
+
 You can find a list of supported flags by executing the command as:  
 
     $ simple-server -h
